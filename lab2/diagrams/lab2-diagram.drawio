@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="b1INWhszo1h8BIlpXRua">
+    <mxGraphModel dx="1369" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Пользователь" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Браузер" vertex="1">
+          <mxGeometry height="60" width="120" x="260" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Frontend (JS)" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="API" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Backend" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Хранилище" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Внешние сервисы" vertex="1">
+          <mxGeometry height="60" width="120" x="920" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="9" edge="1" parent="1" source="2" style="endArrow=classic;html=1;" target="3" value="действие пользователя">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="10" edge="1" parent="1" source="3" style="endArrow=classic;html=1;" target="4" value="HTTP GET (подсказки)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="11" edge="1" parent="1" source="4" style="endArrow=classic;startArrow=classic;html=1;" target="5" value="HTTP GET /search">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12" edge="1" parent="1" source="5" style="endArrow=classic;startArrow=classic;html=1;" target="6" value="JSON">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13" edge="1" parent="1" source="6" style="endArrow=classic;startArrow=classic;html=1;" target="7" value="чтение">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14" edge="1" parent="1" source="6" style="endArrow=classic;startArrow=classic;html=1;" target="8" value="запрос цен">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
